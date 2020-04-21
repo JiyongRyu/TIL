@@ -22,3 +22,12 @@
 ### 2.2 콘솔
 
 - 자바스크립트 코드에서 에러가 발생하여 어플리케이션이 정삭적으로 동작하지 않을 때 우선적으로 살펴보아야 할 곳
+
+### 3. Setting 방법
+
+https://poiemaweb.com/fastcampus/environment
+
+
+
+
+
