@@ -7,7 +7,7 @@
 * 7비트 인코딩, 33개의 출력 불가능 제어 문자와 공백을 비롯한 95개 출력 가능 문자들로 총 128개로 이루어짐. 제어문자의 대부분은 현재 사용하지 않음
 * 출력 가능 문자 : 52개 영문 알파벳 대소문자 / 10개 숫자 / 32개 특수문자 / 하나의 공백문자
 
-![VpDNjzJ](/Users/jiyongryu/Downloads/VpDNjzJ.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/c/cf/USASCII_code_chart.png)
 
 **ASCII가 7비트만 사용하는이유?**
 
