@@ -14,4 +14,6 @@
 - [Javascript Development Environment](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter3.md)
 - [Variable](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter4.md)
 - [Expression & Statement](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter5.md)
+- [Data Type](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter.md)
+- [Operator](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter7.md)
 
