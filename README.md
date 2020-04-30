@@ -19,4 +19,9 @@
 - [Control Statement](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter8.md)
 - [Type Conversion & Short-circuit-Evaluation](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter9.md)
 - [Object Literal](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter10.md)
+- [[ Primitive type & Object/reference type]](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter11.md)
+- [Function](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter12.md)
+- [Scope](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter13.md)
+- [Global Variable Problem](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter14.md)
+- [Let, Const / Block Level Scope](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter15.md)
 
