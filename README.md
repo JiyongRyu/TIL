@@ -26,4 +26,5 @@
 - [Let, Const / Block Level Scope](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter15.md)
 - [Property Attribute](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter16.md)
 - [Object Constructor Function](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter17.md)
+- [Function & First-class Object](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter18.md)
 
