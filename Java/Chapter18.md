@@ -41,3 +41,43 @@
 
 - prototype 프로퍼티는 함수 객체만이 소유하는 프로퍼티이다. 
 - prototype 프로퍼티는 함수가 객체를 생성하는 생성자 함수로 사용될 때, 생성자 함수가 생성할 인스턴스의 프로토타입 객체를 가리킨다.
+
+- 프로토타입 체인의 최상위에 위치하는 객체는 언제나 Object.prototype이다. 따라서 모든 객체는 Object.prototype을 상속받는다. **Object.prototype을 프로토타입 체인의 종점(end of prototype chain)**이라 한다. Object.prototype의 프로토타입, 즉 [[Prototype]] 내부 슬롯의 값은 null이다.
+- 프로토타입 체인의 종점인 Object.prototype에서도 프로퍼티를 검색할 수 없는 경우, undefined를 반환한다.
+- 프로토타입 체인은 상속과 프로퍼티 검색을 위한 메커니즘이다.
+- 프로퍼티가 아닌 식별자는 스코프 체인에서 검색한다. 스코프 체인은 식별자 검색을 위한 메커니짐이라고 할수 있다.
+
+### 8. 캡슐화
+
+- 정보의 일부를 외부에 감추어 은닉하는 것을 말한다.
+
+### 9. 오버라이딩과 프로퍼티 쉐도잉
+
+```
+const Person = (function () {
+  // 생성자 함수
+  function Person(name) {
+    this.name = name;
+  }
+
+  // 프로토타입 메소드
+  Person.prototype.sayHello = function () {
+    console.log(`Hi! My name is ${this.name}`);
+  };
+
+  // 생성자 함수를 반환
+  return Person;
+}());
+
+const me = new Person('Lee');
+
+// 인스턴스 메소드
+me.sayHello = function () {
+  console.log(`Hey! My name is ${this.name}`);
+};
+
+// 인스턴스 메소드가 호출된다. 프로토타입 메소드는 인스턴스 메소드에 의해 가려진다.
+me.sayHello(); // Hey! My name is Lee
+```
+
+![19-19](https://poiemaweb.com/assets/fs-images/19-19.png)
