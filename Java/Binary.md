@@ -18,9 +18,11 @@ function *binarySearch*(array, target) {
 
 ​      result = mid;
 
-​      *break*;
+​      *return* result;
 
-​    } else if (target > array[mid]) start = mid + 1;
+​    }
+
+​    if (target > array[mid]) start = mid + 1;
 
 ​    else end = mid - 1;
 
