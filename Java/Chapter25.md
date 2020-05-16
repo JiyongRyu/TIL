@@ -333,7 +333,6 @@ console.log(colorRectangle.toString()); // width = 2, height = 4, color = red
 - extends 키워드 다음에는 클래스뿐만이 아니라 [[Construct]] 내부 메소드를 갖는 함수 객체를 반환하는 모든 표현식을 사용할 수 있다. String, Number, Array와 같은 표준 빌트인 객체도 [[Construct]] 내부 메소드를 갖는 생성자 함수이므로 extends 키워드를 사용하여 확장할 수 있다.
 
 ```
-​``` c
 // Array 생성자 함수를 상속받아 확장한 MyArray
 class MyArray extends Array {
   // 중복된 배열 요소를 제거하고 반환한다: [1, 1, 2, 3] => [1, 2, 3]
@@ -354,6 +353,20 @@ console.log(myArray); // MyArray(4) [1, 1, 2, 3]
 console.log(myArray.uniq()); // MyArray(3) [1, 2, 3]
 // MyArray.prototype.average 호출
 console.log(myArray.average()); // 1.75
-​```
 ```
+
+~~~null
+```javascript
+let sumNumbers = (firstNum, lastNum) => {
+  return firstNum + lastNum;
+};
+sumNumbers(100, 200);
+```　
+
+```python
+num_list = ['one', 'two', 'three']
+for num in num_list:
+  print(num)
+```　
+~~~
 
