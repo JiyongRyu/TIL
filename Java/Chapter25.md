@@ -104,7 +104,7 @@
 - constructor 내부에서 this를 통해 정의한 인스턴스 프로퍼티는 인스턴스를 통해 클래스 외부에서 언제나 참조할 수 있다. 즉, 언제나 public이다.
 - Private 필드를 정의할 수 있는 새로운 표준 사양이 제안되어 있다
 
-```
+```javascript
 class Person {
   // private 필드 정의
   #name = '';
@@ -132,7 +132,7 @@ console.log(me.#name);
 
 ### 7.5 static 필드 정의 제안
 
-```
+```javascript
 class MyMath {
   // static public 필드 정의
   static PI = 22 / 7;
@@ -178,7 +178,7 @@ class Derived extends Base {}
 
 - extends 키워드는 생성자 함수를 상속받아 클래스를 확장할 수도 있다. 단, extends 키워드 앞에는 반드시 클래스가 와야 한다.
 
-```
+```javascript
 // 생성자 함수
 function Base(a) {
   this.a = a;
@@ -197,7 +197,7 @@ console.log(derived); // Derived {a: 1}
 
 - 서브 클래스에 constructor를 생략하면 클래스에 아래와 같이 디폴트 constructor가 암묵적으로 정의된다.
 
-```
+```javascript
 // 수퍼 클래스
 class Base {
   constructor() {}
@@ -221,7 +221,7 @@ console.log(derived); // Derived {}
   - super를 호출하면 수퍼 클래스의 constructor(super-constructor)를 호출한다.
   - 수퍼 클래스의 constructor 내부에서 추가한 프로퍼티를 그대로 갖는 인스턴스를 생성한다면 서브 클래스의 constructor를 생략할 수 있다. 이때 new 연산자와 함께 서브 클래스를 호출하면서 전달한 인수는 모두 서브 클래스에 암묵적으로 정의된 디폴트 constructor의 super 호출을 통해 수퍼 클래스의 constructor에게 전달된다.
 
-```
+```javascript
 // 수퍼 클래스
 class Base {
   constructor(a, b) {
@@ -256,7 +256,7 @@ console.log(derived); // Derived {a: 1, b: 2}
 
 ### 8.6 상속 클래스의 인스턴스 생성 과정
 
-```
+```javascript
 // 수퍼 클래스
 class Rectangle {
   constructor(width, height) {
@@ -332,7 +332,7 @@ console.log(colorRectangle.toString()); // width = 2, height = 4, color = red
 
 - extends 키워드 다음에는 클래스뿐만이 아니라 [[Construct]] 내부 메소드를 갖는 함수 객체를 반환하는 모든 표현식을 사용할 수 있다. String, Number, Array와 같은 표준 빌트인 객체도 [[Construct]] 내부 메소드를 갖는 생성자 함수이므로 extends 키워드를 사용하여 확장할 수 있다.
 
-```
+```javascript
 // Array 생성자 함수를 상속받아 확장한 MyArray
 class MyArray extends Array {
   // 중복된 배열 요소를 제거하고 반환한다: [1, 1, 2, 3] => [1, 2, 3]
@@ -355,18 +355,5 @@ console.log(myArray.uniq()); // MyArray(3) [1, 2, 3]
 console.log(myArray.average()); // 1.75
 ```
 
-~~~null
-```javascript
-let sumNumbers = (firstNum, lastNum) => {
-  return firstNum + lastNum;
-};
-sumNumbers(100, 200);
-```　
 
-```python
-num_list = ['one', 'two', 'three']
-for num in num_list:
-  print(num)
-```　
-~~~
 
