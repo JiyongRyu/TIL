@@ -35,4 +35,7 @@
 - [Closer](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter24.md)
 - [Class](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter25.md)
 - [ES6 Function](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter26.md)
+- [Array](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter27.md)
+- [Number](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter28.md)
+- [Math](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter29.md)
 
