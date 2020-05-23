@@ -38,4 +38,10 @@
 - [Array](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter27.md)
 - [Number](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter28.md)
 - [Math](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter29.md)
+- [Date](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter30.md)
+- [RegExp](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter31.md)
+- [String](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter32.md)
+- [Symbol](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter33.md)
+- [Iterable](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter34.md)
+- [Spread](https://github.com/JiyongRyu/TIL/blob/master/Java/Chapter35.md)
 
